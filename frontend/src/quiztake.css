@@ -1,0 +1,89 @@
+/* quiztake.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #00c6ff, #0072ff); /* blue gradient */
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div {
+  background: #fff;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 700px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h3 {
+  text-align: center;
+  color: #555;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+/* Question container */
+div > div {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-left: 8px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Radio button group */
+input[type="radio"] {
+  accent-color: #0072ff; /* modern color styling */
+  cursor: pointer;
+}
+
+/* Main button */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: #0072ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: #005bcc;
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* Back button styling inside the form */
+div > button:last-child {
+  background: #555;
+  margin-top: 12px;
+}
+
+div > button:last-child:hover {
+  background: #333;
+}

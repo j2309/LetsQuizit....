@@ -1,0 +1,48 @@
+/* addquiz.css */
+.addquiz-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.addquiz-container h2 {
+  margin-bottom: 15px;
+}
+
+.addquiz-container input,
+.addquiz-container textarea {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.addquiz-container button {
+  background-color: #0072ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.addquiz-container button:hover {
+  background-color: #005fcc;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+.success {
+  color: green;
+  font-size: 14px;
+}
+

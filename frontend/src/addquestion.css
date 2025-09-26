@@ -1,0 +1,47 @@
+.add-question-container {
+  max-width: 600px;      /* limit width */
+  margin: 20px auto;     /* center horizontally */
+  padding: 20px;
+  background: #f9f9f9;   /* light background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  overflow-y: auto;      /* scroll if content is too tall */
+  max-height: 80vh;      /* limit height to 80% of viewport */
+}
+
+.add-question-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-question-container form div {
+  margin-bottom: 15px;
+}
+
+.add-question-container input,
+.add-question-container select,
+.add-question-container textarea,
+.add-question-container button {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.add-question-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-question-container button:hover {
+  background-color: #45a049;
+}
+
+.add-question-container p {
+  margin: 0;
+}

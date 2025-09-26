@@ -1,0 +1,72 @@
+/* quizlist.css */
+
+.quiz-list-container {
+  max-width: 300px;          /* Keep within screen */
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+  max-height: 50vh;          /* Prevent overflowing the screen height */
+  overflow-y: auto;          /* Scroll if too many quizzes */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 5px;
+  margin: 2px;
+}
+
+li {
+  background: #f6c8ef;
+  padding: 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  word-wrap: break-word;    /* ✅ Prevents text from overflowing */
+  overflow-wrap: break-word; 
+}
+
+li strong {
+  font-size: 14px;
+  color: #222;
+}
+
+li p {
+  margin: 3px 0;
+  color: #555;
+}
+
+button {
+  margin-top: 5px;
+  background-color: #0072ff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #005fcc;
+}
+
+/* Custom scrollbar for list */
+.quiz-list-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.quiz-list-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
