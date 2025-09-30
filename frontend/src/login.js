@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { loginAPI } from "../api";
+import { loginAPI } from "./api";
 import BackButton from "./BackButton";
 import './login.css'
 
@@ -49,3 +49,4 @@ function Login({ onLogin, onNavigate }) {
 }
 
 export default Login;
+
