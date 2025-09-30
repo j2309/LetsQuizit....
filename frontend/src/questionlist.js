@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getQuestionsByQuiz } from "../api";
+import { getQuestionsByQuiz } from "./api";
 import './questionlist.css'
 
 function QuestionList({ quizId }) {
@@ -41,3 +41,4 @@ function QuestionList({ quizId }) {
 }
 
 export default QuestionList;
+
