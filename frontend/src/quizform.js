@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { createQuiz } from "../api";
+import { createQuiz } from "./api";
 import BackButton from "./BackButton";
 import './quizform.css'
 
@@ -47,3 +47,4 @@ function QuizForm({ onQuizCreated, onNavigate }) {
 }
 
 export default QuizForm;
+
