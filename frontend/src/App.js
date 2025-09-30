@@ -7,7 +7,7 @@ import QuizTaking from "./quiztake.js";
 import HomePage from "./Home.js";
 import Login from "./login.js";
 import Register from "./register.js";
-import { getQuizzes, deleteQuiz } from "./api";  
+import { getQuizzes, deleteQuiz } from "../api";  
 import './App.css';
 
 function App() {
