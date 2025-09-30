@@ -1,6 +1,6 @@
 // src/components/AddQuiz.js
 import React, { useState } from "react";
-import { createQuiz } from "../api";
+import { createQuiz } from "./api";
 import "./addquiz.css";
 
 function AddQuiz({ onQuizCreated }) {
@@ -68,3 +68,4 @@ function AddQuiz({ onQuizCreated }) {
 }
 
 export default AddQuiz;
+
