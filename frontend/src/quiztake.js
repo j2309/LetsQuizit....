@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getQuestionsByQuiz } from "../api";
+import { getQuestionsByQuiz } from "./api";
 import BackButton from "./BackButton";
 
 // Function to shuffle options
@@ -111,3 +111,4 @@ function QuizTaking({ quizId, onBack }) {
 }
 
 export default QuizTaking;
+
