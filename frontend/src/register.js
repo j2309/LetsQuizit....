@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { registerAPI } from "../api";
+import { registerAPI } from "./api";
 import BackButton  from "./BackButton";
 import './register.css'
 
@@ -48,3 +48,4 @@ function Register({ onLogin, onNavigate }) {   // ✅ match App.js
 }
 
 export default Register;
+
