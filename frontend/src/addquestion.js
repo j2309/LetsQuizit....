@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getQuizzes, addQuestion } from "../api";
+import { getQuizzes, addQuestion } from "./api";
 
 function AddQuestion({ onNavigate }) {
   // 🔹 State variables
@@ -97,3 +97,4 @@ function AddQuestion({ onNavigate }) {
 }
 
 export default AddQuestion;
+
