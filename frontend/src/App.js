@@ -1,13 +1,13 @@
 // src/App.js
 import React, { useState, useEffect } from "react";
-import QuizList from "quizlist.js";
-import QuizForm from "quizform.js";
-import AddQuestion from "addquestion.js";
-import QuizTaking from "quiztake.js";
-import HomePage from "Home.js";
-import Login from "login.js";
-import Register from "register.js";
-import { getQuizzes, deleteQuiz } from "api";  
+import QuizList from "./quizlist.js";
+import QuizForm from "./quizform.js";
+import AddQuestion from "./addquestion.js";
+import QuizTaking from "./quiztake.js";
+import HomePage from "./Home.js";
+import Login from "./login.js";
+import Register from "./register.js";
+import { getQuizzes, deleteQuiz } from "./api";  
 import './App.css';
 
 function App() {
